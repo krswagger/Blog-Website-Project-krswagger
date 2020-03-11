@@ -1,0 +1,41 @@
+/*main part*/
+
+.main{
+  display: flex;
+  flex-direction: row;
+}
+
+.BL{
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 2rem 4rem 2rem;
+  padding: 1.3rem 2.5rem 1.3rem 2.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.card-title{
+  font-family: "Merriweather";
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 1rem 0 1rem 0;
+  text-align: center;
+}
+
+.card-writing{
+  font-size: 1.3rem;
+}
+
+.read-more{
+  margin: 15px 0 0 0;
+  border: none;
+  border-radius: 2rem;
+  background-color: rgb(227, 227, 227);
+  }
+
+.rm{
+    font-family: "Chathura";
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+  }

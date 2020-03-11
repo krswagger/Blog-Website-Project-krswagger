@@ -1,0 +1,141 @@
+/*style(padding, margin, font,...) except footer*/
+/*from top to bottom order*/
+
+/*header*/
+.logo{
+  font-size: 40px;
+  text-align: left;
+}
+
+/*main*/
+.main{
+  background-color: white;
+}
+
+.title{
+padding: 50px 0 50px 0;
+margin-bottom: 30px;
+}
+
+.article-head{
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 8rem;
+  text-align: center;
+}
+
+.author{
+  display: flex;
+  padding: 60px 0 60px 0;
+  border-top: 1px solid #bdbdbd;
+}
+
+.bio,
+.date_n_sns{
+  font-family: 'Merriweather';
+}
+
+.avatar{
+  margin-right: 20px;
+}
+
+.bio_a{
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(80, 114, 171);
+}
+
+.bio_b{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.bio_c{
+  font-size: 15px;
+  font-style: italic;
+  color: rgb(101, 102, 101);
+}
+
+.date_n_sns{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 20px 0;
+  border-top: 1px solid #bdbdbd;
+}
+
+.date{
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sns-add{
+  display: flex;
+  justify-content: center;
+}
+
+.article{
+  padding: 60px 0 60px 0;
+}
+
+.writing{
+  font-family: 'Merriweather';
+  font-size: 2rem;
+  text-align: left;
+}
+
+/*others*/
+.others{
+  background-color: rgb(252, 244, 231);
+  padding-bottom: 20px;
+}
+
+.others-head{
+  font-family: 'Oswald';
+  font-size: 4rem;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/*image*/
+.fb,
+.tw,
+.in{
+  cursor: pointer;
+  width:28px;
+  height: 28px;
+  margin-right: 3rem;
+}
+
+.avatar{
+  border-radius:100%;
+  width:70px;
+  height:70px;
+}
+
+/*flex box*/
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 5px 40px 40px;
+}
+
+.navi{
+  margin-left: auto;
+}
+
+.nav_links li{
+  padding: 0 20px;
+}
+
+.relatedlink li a{
+  font-family: 'Oswald';
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 2rem;
+  color: black;
+}
